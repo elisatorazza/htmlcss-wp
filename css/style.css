@@ -15,29 +15,52 @@ body {
 }
 /* header */
 header {
-  background-color: #FEFE3A;
   margin-bottom: 5px;
+  text-transform: uppercase;
 }
+/* logo */
 h1{
   margin-bottom: 20px;
   border: 3px solid white;
   display: inline-block;
-  padding: 3px 5px;
+  padding: 5px 7px;
 }
 .header-top {
   height: 200px;
   background-image: url(../img/img-natural.jpg);
   position: relative;
+  border: 7px solid white;
 }
 .logo {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-transform: uppercase;
   color: white;
   text-align: center;
 }
+/* /logo */
+/* menu principale */
+.header-nav {
+  background-color: grey;
+}
+ul {
+  text-align: center;
+  list-style: none;
+  height: 40px;
+}
+li {
+  height: 100%;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 7px;
+}
+a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+/* /menu principale */
 /* /header */
 /* main */
 main {
