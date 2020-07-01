@@ -69,6 +69,7 @@ main {
 }
 .left, .central, .right {
   float: left;
+  border-radius: 10px;
 }
 main::after {
   content:"";
@@ -81,7 +82,6 @@ main::after {
   width: 20%;
   background-color: #fff;
   padding: 10px;
-  border-radius: 10px;
 }
 .fa-rss-square{
   font-size: 30px;
@@ -91,7 +91,7 @@ main::after {
 }
 .organic {
   font-size: 30px;
-  color: grey;
+  color: #504741;
   margin-left: 8px;
   display: inline-block;
   width: 70%;
@@ -110,8 +110,19 @@ main::after {
 /* colonna centrale */
 .central {
   width: 48%;
-  background-color: #730671;
-  margin: 0% 2% 1%;
+  background-color: #fff;
+  margin: 0% 4% 1%;
+  padding: 20px;
+}
+.central h3 {
+  margin-bottom: 20px;
+  color: #504741;
+  text-shadow: 1px 1px #504741;
+  font-size: 25px;
+  font-weight: 400;
+}
+.lorem {
+  line-height: 30px;
 }
 /* /colonna centrale */
 /* colonne dx */
