@@ -42,7 +42,7 @@ h1{
 /* /logo */
 /* menu principale */
 .header-nav {
-  background-color: grey;
+  background-color: #514741;
 }
 .main-menu {
   text-align: center;
@@ -86,7 +86,7 @@ main::after {
 }
 .fa-rss-square{
   font-size: 30px;
-  color: orange;
+  color: #F5A540;
   display: inline-block;
   vertical-align: top;
 }
@@ -153,6 +153,33 @@ main::after {
 
 /* footer */
 footer {
-  height: 100px;
-  background-color: #A4D2E1;
+  background-color: #fff;
 }
+.copyright, .social {
+  opacity: 0.3;
+}
+/* copyright */
+.copyright {
+  text-align: center;
+  font-style: italic;
+  border-bottom: 1px solid black;
+}
+/* /copyright */
+
+/* social */
+div.social::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+div.social {
+  padding: 3%;
+}
+.icon {
+  width: 31%;
+  margin: 1%;
+  text-align: center;
+  float: left;
+  font-size: 45px;
+}
+/* /parte social */
