@@ -4,7 +4,7 @@
   padding: 0;
 }
 .container {
-  width: 1200px;
+  width: 1000px;
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -78,6 +78,7 @@ main::after {
 }
 
 /* colonna sx */
+/* intestazione colonna sx */
 .left {
   width: 20%;
   background-color: #fff;
@@ -97,6 +98,8 @@ main::after {
   width: 70%;
   vertical-align: top;
 }
+/* /intestazione colonna sx */
+/* menu colonna sx */
 .menu-left a{
   text-decoration: none;
   color: green;
@@ -106,7 +109,9 @@ main::after {
   margin-bottom: 8px;
   font-weight: 700;
 }
+/* /menu colonna sx */
 /* /colonna sx */
+
 /* colonna centrale */
 .central {
   width: 48%;
@@ -125,18 +130,24 @@ main::after {
   line-height: 30px;
 }
 /* /colonna centrale */
+
 /* colonne dx */
-/* prima colonna dx */
 .right {
   width:24%;
 }
-/* /prima colonna dx */
-/* seconda colonna dx */
 .widget {
-  background-color: #CC87DA;
-  margin-bottom: 5%;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 10%;
+  border-radius: 10px;
 }
-/* /seconda colonna dx */
+.widget h3 {
+  margin-bottom: 20px;
+  color: #504741;
+}
+.widget p {
+  line-height: 30px;
+}
 /* /colonne dx */
 /* /main */
 
