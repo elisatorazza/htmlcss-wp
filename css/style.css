@@ -83,21 +83,19 @@ main::after {
   padding: 10px;
   border-radius: 10px;
 }
-.left::after {
-  content:"";
-  display: table;
-  clear: both;
-}
 .fa-rss-square{
   font-size: 30px;
   color: orange;
-  float:left;
+  display: inline-block;
+  vertical-align: top;
 }
 .organic {
   font-size: 30px;
   color: grey;
-  text-align: center;
-  margin: 8px;
+  margin-left: 8px;
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
 }
 .menu-left a{
   text-decoration: none;
